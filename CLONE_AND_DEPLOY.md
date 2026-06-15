@@ -117,7 +117,7 @@ for color). **Never** swap the stack or "modernize" — just change text, links,
 1. **Brand name:** find `Lumora Dental` (and standalone `Lumora`) across all `.html` → your business name.
 2. **Logo:** replace `assets/img/lumora-logo.svg` and `assets/img/lumora-logo-dark.svg` (footer) with
    your own SVG/PNG of the same dimensions. Replace `assets/img/favicon.svg` + `webclip.png` too.
-3. **Booking CTA:** find `https://calendly.com/shreyasrajsony11` (×6) → your Calendly/booking URL.
+3. **Booking CTA:** find `https://calendly.com/kitsonfarel/30min` (×6) → your Calendly/booking URL.
 4. **Phone / WhatsApp:** find `9307512816` (and `9193007512816` if present) → your number (the lead
    form opens a prefilled WhatsApp on submit — handled by the inline `lumoraLead` script before
    `</body>` on each index page).
