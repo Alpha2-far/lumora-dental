@@ -8013,23 +8013,28 @@ figure {
     font-size: 16px;
   }
 
+  .our-info_list {
+    grid-template-columns: 1fr;
+  }
+
   .our-info_item {
-    padding-right: var(--_size-variables---element-spacing--sm);
-    padding-left: var(--_size-variables---element-spacing--sm);
+    padding: var(--_size-variables---element-spacing--6xl) var(--_size-variables---element-spacing--2xl);
+    border-right: 1px solid var(--color-shadow--white-40);
+    border-bottom: 1px solid var(--color-shadow--white-40);
   }
 
   .our-info_icon {
-    width: var(--_icon-size---icon--20);
+    width: var(--_icon-size---icon--40);
     align-self: flex-start;
   }
 
   .our-info_item-para {
-    font-size: var(--_font---font-size-semantics--body-base);
+    font-size: var(--_font---font-size-semantics--body-xl);
   }
 
   .our-info_block {
-    grid-column-gap: var(--_size-variables---element-spacing--sm);
-    grid-row-gap: var(--_size-variables---element-spacing--sm);
+    grid-column-gap: var(--_size-variables---element-spacing--xl);
+    grid-row-gap: var(--_size-variables---element-spacing--xl);
   }
 
   .navbar-content_wrap {
